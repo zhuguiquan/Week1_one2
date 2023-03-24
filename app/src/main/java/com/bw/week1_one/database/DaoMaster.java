@@ -56,9 +56,6 @@ public class DaoMaster extends AbstractDaoMaster {
         return new DaoSession(db, type, daoConfigMap);
     }
 
-
-
-
     /**
      * Calls {@link #createAllTables(Database, boolean)} in {@link #onCreate(Database)} -
      */
